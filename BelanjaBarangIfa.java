@@ -1,4 +1,3 @@
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class BelanjaBarangIfa {
@@ -11,13 +10,15 @@ public class BelanjaBarangIfa {
         System.out.println("Masukkan Nama Barang 2");
         String NamaBarang2 = input.next();
         System.out.println("Masukkan Harga Barang 2");
-        Double HargaBarang2 = input.nextDouble();
+        double HargaBarang2 = input.nextDouble();
 
         System.out.println("============");
-        System.out.println("Barang yang Dibeli : "+NamaBarang1 + NamaBarang2);
-        System.out.println("Harga : "+HargaBarang1 + HargaBarang1);
-        
+        System.out.println("Barang yang Dibeli : "+NamaBarang1);
+        System.out.println("Harga : "+HargaBarang1);
 
+        System.out.println("Barang yang Dibeli"+NamaBarang2);
+        System.out.println("Harga"+HargaBarang2);
+        
     }
     
 }
